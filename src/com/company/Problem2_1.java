@@ -6,9 +6,9 @@ public class Problem2_1 {
     public static void main(String[] args) {
         Random random = new Random();
 
-        int number1 = random.nextInt(100) + 10;
+        int number1 = random.nextInt(90) + 10;
         System.out.println("Number 1 is " + number1);
-        int number2 = random.nextInt(100) + 10;
+        int number2 = random.nextInt(90) + 10;
         System.out.println("Number 2 is " + number2);
 
         int sum = number1 + number2;
