@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Random random = new Random();
 
-        int number = random.nextInt(100) + 10;
+        int number = random.nextInt(90) + 10;
         System.out.println("Number is " + number);
         double square = Math.pow(number, 2);
 
