@@ -14,7 +14,7 @@ public class Main {
         int number1 = 0;
         
         if (number > 100) {
-            number1 = random.nextInt(number) + 50;
+            number1 = random.nextInt(number-50) + 50;
         } else if (number < 100) {
             number1 = random.nextInt(50);
         }
